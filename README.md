@@ -34,4 +34,4 @@ Use `&theme=THEME_NAME` in the endpoint to change card themes.
 
 ### Deployed Application
 
-To make your cards manually, visit `https://stackoverflow-stats.vercel.app`
+To make your cards manually, visit [https://stackoverflow-stats.vercel.app](https://stackoverflow-stats.vercel.app)
