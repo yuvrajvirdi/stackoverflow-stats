@@ -1,7 +1,7 @@
 # stackoverflow-stats
 
 * Card SVGs for your Stack Overflow stats
-* [Stack Overflow Stats REST API](https://github.com/yuvrajvirdi/stackoverflow-stats-api)
+* Backend REST API can be found [here](https://github.com/yuvrajvirdi/stackoverflow-stats-api)
 
 [![Stackoverflow stats](https://stackoverflow-stats.vercel.app/api?userId=16142497&theme=Dark)](https://stackoverflow.com/users/16142497)
 
