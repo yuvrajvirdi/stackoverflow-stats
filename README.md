@@ -7,7 +7,9 @@
 
 # Use
 
-### Ensure you have a valid Stack Overflow user ID, which can be found [here](https://stackover.com/users) by finding your username
+## Ensure you have a valid Stack Overflow user ID, which can be found [here](https://stackover.com/users) by finding your username
+
+### Markdown
 
 To get a SVG Card for Markdown, enter your user ID in the following link and paste it into your markdown file.
 
@@ -15,10 +17,14 @@ To get a SVG Card for Markdown, enter your user ID in the following link and pas
 [![Stackoverflow stats](https://stackoverflow-stats.vercel.app/api?userId=<YOUR-USER-ID>&theme=Dark)](https://stackoverflow.com/users/<YOUR-USER-ID>)
 ```
 
+### URL
+
 To get a SVG Card URL, enter your user ID in the following link:
 
 `
 https://stackoverflow-stats.vercel.app/api?userId=<YOUR-USER-ID>&theme=Dark
 `
+
+### Deployed Application
 
 To make your cards manually, visit `https://stackoverflow-stats.vercel.app`
