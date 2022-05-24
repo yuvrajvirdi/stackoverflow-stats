@@ -85,7 +85,7 @@ function Page(): JSX.Element {
     // copy md link
     const copyMdOnClick = () => {
         const userId = getValue(queryRef);
-        const svgUrl = `${URL}/api?userId=${userId}$theme=${theme}`;
+        const svgUrl = `${URL}/api?userId=${userId}&theme=${theme}`;
         const redirUrl = `https://stackoverflow.com/users/${userId}`;
         navigator.clipboard.writeText(
             `[![Stackoverflow stats](${svgUrl})](${redirUrl})`,
