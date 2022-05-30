@@ -3,6 +3,8 @@
 * Card SVGs for your Stack Overflow stats
 * Implements my Stack Overflow Stats REST API, which can be found [here](https://github.com/yuvrajvirdi/stackoverflow-stats-api)
 
+[![Stackoverflow stats](https://stackoverflow-stats.vercel.app/api?userId=1&theme=Dark)](https://stackoverflow.com/users/1)
+
 # Stats Card
 
 **Ensure you have a valid Stack Overflow user ID, which can be found [here](https://stackover.com/users) by finding your username**
