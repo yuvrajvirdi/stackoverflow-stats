@@ -65,6 +65,7 @@ function Page(): JSX.Element {
             .then((response) => {
                 setSvg(response.data as string)
                 setCreated(true)
+                setTextStatus('')
             })
             .catch((error) => {
                 setCreated(false)
