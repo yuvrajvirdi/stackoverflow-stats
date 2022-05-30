@@ -30,7 +30,7 @@ function Page(): JSX.Element {
     }
 
     // status
-    const [textStatus, setTextStatus] = useState('Create an image!');
+    const [textStatus, setTextStatus] = useState('');
 
     // button states
     const [created, setCreated] = useState(false);
@@ -57,7 +57,7 @@ function Page(): JSX.Element {
 
         // no query
         if (userId === ''){
-            setTextStatus('Enter your stackoverflow user id!');
+            setTextStatus('Enter an ID');
             return;
         }
         
@@ -65,7 +65,6 @@ function Page(): JSX.Element {
             .then((response) => {
                 setSvg(response.data as string)
                 setCreated(true)
-                setTextStatus('Created image!')
             })
             .catch((error) => {
                 setCreated(false)
@@ -85,7 +84,7 @@ function Page(): JSX.Element {
     // copy md link
     const copyMdOnClick = () => {
         const userId = getValue(queryRef);
-        const svgUrl = `${URL}/api?userId=${userId}&theme=${theme}`;
+        const svgUrl = `${URL}/api?userId=${userId}$theme=${theme}`;
         const redirUrl = `https://stackoverflow.com/users/${userId}`;
         navigator.clipboard.writeText(
             `[![Stackoverflow stats](${svgUrl})](${redirUrl})`,
