@@ -27,10 +27,12 @@ https://stackoverflow-stats.vercel.app/api?userId=<YOUR-USER-ID>&theme=Dark
 
 ### Themes
 
-####Light
+#### Light
+
 [![Stackoverflow stats](https://stackoverflow-stats.vercel.app/api?userId=1&theme=Light)](https://stackoverflow.com/users/1)
 
-####Dark (default)
+#### Dark (default)
+
 [![Stackoverflow stats](https://stackoverflow-stats.vercel.app/api?userId=1&theme=Dark)](https://stackoverflow.com/users/1)
 
 Use `&theme=THEME_NAME` in the endpoint to change card themes.
