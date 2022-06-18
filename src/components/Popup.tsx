@@ -45,7 +45,7 @@ export default function Popup(){
     return (
         <div className={classes.popup}>
             <Button
-                variant='outlined'
+                variant='contained'
                 onClick={handleOpen}
                 color='primary'
             >
