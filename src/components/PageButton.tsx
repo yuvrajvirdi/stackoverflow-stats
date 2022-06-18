@@ -14,7 +14,7 @@ function PageButton({ text, icon, colour, onClick }: ButtonProps): JSX.Element {
     const classes = useStyles();
     return (
         <Button
-            variant="outlined"
+            variant="contained"
             color={colour}
             className={classes.button}
             startIcon={icon}
