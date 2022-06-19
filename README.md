@@ -1,9 +1,10 @@
 # stackoverflow-stats
 
-* Card SVGs for your Stack Overflow stats
-* Implements my Stack Overflow Stats REST API, which can be found [here](https://github.com/yuvrajvirdi/stackoverflow-stats-api)
+Dynamically generate SVG cards for your Stackoverflow Stats!
 
-https://user-images.githubusercontent.com/81879713/174460655-983f1b3d-97f2-425a-a024-9fb2e9564aa9.mov
+Implements my Stack Overflow Stats REST API, which can be found [here](https://github.com/yuvrajvirdi/stackoverflow-stats-api)
+
+https://user-images.githubusercontent.com/81879713/174460671-9d66ab7b-e599-4180-aaf0-69f702ddae22.mov
 
 # Stats Card
 
