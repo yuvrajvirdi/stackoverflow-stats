@@ -1,6 +1,6 @@
 # stackoverflow-stats
 
-## ![https://stackoverflow-stats.vercel.app](https://stackoverflow-stats.vercel.app)
+## [https://stackoverflow-stats.vercel.app](https://stackoverflow-stats.vercel.app)
 
 Dynamically generate SVG cards for your Stackoverflow Stats!
 
