@@ -24,9 +24,9 @@ To get a SVG Card for Markdown, enter your user ID in the following link and pas
 
 To get a SVG Card URL, enter your user ID in the following link:
 
-`
+```md
 https://stackoverflow-stats.vercel.app/api?userId=<YOUR-USER-ID>&theme=Dark
-`
+```
 
 # Themes
 
