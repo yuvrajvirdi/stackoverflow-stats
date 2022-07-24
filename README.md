@@ -6,6 +6,8 @@ Dynamically generate SVG cards for your Stackoverflow Stats!
 
 Implements my Stack Overflow Stats REST API, which can be found [here](https://github.com/yuvrajvirdi/stackoverflow-stats-api)
 
+# Demo 
+
 https://user-images.githubusercontent.com/81879713/174460671-9d66ab7b-e599-4180-aaf0-69f702ddae22.mov
 
 # Use
